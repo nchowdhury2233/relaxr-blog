@@ -1,0 +1,43 @@
+header {
+	background-color: #033048;
+	padding: 20px;
+	padding-left: 100px;
+}
+
+.clearfix::after {
+	content: "";
+	visibility: hidden;
+	height: 0;
+	display: block;
+	clear: both;
+}
+
+h1 {
+	font-family: Open Sans, sans-serif;
+	color: #fff;
+	font-size: 50px; 
+	font-weight: 800;
+	float: left;
+
+}
+
+nav {
+	font-size: 24px;
+	font-family: Open Sans, sans-serif;
+	font-weight: 600;
+	float: right;
+	padding: 50px;
+	padding-right: 100px;
+}
+
+a {
+	text-decoration: none;
+	color: yellow;
+	padding: 15px;
+}
+
+h2 {
+	font-size: 40px;
+	font-weight: 600;
+	color: black; 
+}
